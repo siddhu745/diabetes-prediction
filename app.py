@@ -53,7 +53,7 @@ def user_report():
       'DiabetesPedigreeFunction':dpf,
       'Age':age
   }
-  report_data = pd.DataFrame(user_report_data, index=[0])
+  report_data = pd.DataFrame(user_report_data, index=[0 ])
   return report_data
 
 
